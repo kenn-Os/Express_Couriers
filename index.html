@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Express Couriers</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Express Couriers</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tracking">Track My Parcel</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero"  id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Express Couriers</h1>
+          <p>Fast and reliable courier services</p>
+          <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+       <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="service">
+                  <img src="/image/maarten-van-den-heuvel-KSQgzzn3dW0-unsplash.jpg" alt="Service Image 1">
+                  <h3>Express Delivery</h3>
+                  <p id="h3">Get your package delivered quickly and <br>securely.</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="service">
+                  <img src="/image/pexels-tima-miroshnichenko-6169668.jpg" alt="Service Image 2">
+                  <h3>Secure Handling</h3>
+                  <p id="h3">We ensure the safety and security of your shipments.</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="service">
+                  <img src="/image/pexels-ben-taylor-109998.jpg" alt="Service Image 3">
+                  <h3>24/7 Availability</h3>
+                  <p id="h3">We are available round the clock to serve <br>you.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card">
+              <img src="/image/malte-helmhold-JkSKoNa2og4-unsplash.jpg" class="card-img-top" alt="Testimonial Image 1">
+              <div class="card-body">
+                <h5 class="card-title">Matt Philip</h5>
+                <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel magna vitae nunc placerat interdum."</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <img src="/image/pexels-daniel-xavier-1239291.jpg" class="card-img-top" alt="Testimonial Image 2">
+              <div class="card-body">
+                <h5 class="card-title">Laurel Parton</h5>
+                <p class="card-text">"Praesent consequat mi eget purus consectetur, in gravida leo rhoncus. Fusce aliquam condimentum fringilla."</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <img src="/image/aatik-tasneem-7omHUGhhmZ0-unsplash.jpg" class="card-img-top" alt="Testimonial Image 3">
+              <div class="card-body">
+                <h5 class="card-title">Mark Johnson</h5>
+                <p class="card-text">"Vestibulum auctor justo eget nisi vulputate, in fringilla dolor suscipit. Suspendisse viverra ultricies mauris."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+
+  <!-- Pricing Section -->
+  <section class="pricing"  id="pricing">
+    <div class="container">
+      <h2>Pricing</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h3>Basic</h3>
+              <p class="price">$39.99/mo</p>
+              <ul>
+                <li>10 deliveries per month</li>
+                <li>Standard tracking</li>
+                <li>Email support</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h3>Standard</h3>
+              <p class="price">$59.99/mo</p>
+              <ul>
+                <li>20 deliveries per month</li>
+                <li>Advanced tracking</li>
+                <li>Email and phone support</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h3>Premium</h3>
+              <p class="price">$109.99/mo</p>
+              <ul>
+                <li>Unlimited deliveries</li>
+                <li>Real-time tracking</li>
+                <li>24/7 support</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Package Tracking Section -->
+<section class="tracking"  id="tracking">
+  <div class="container">
+    <h2>Package Tracking</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <form id="trackingForm">
+          <div class="mb-3">
+            <label for="trackingNumber" class="form-label">Tracking Number</label>
+            <input type="text" class="form-control" id="trackingNumber" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Track Package</button>
+        </form>
+      </div>
+      <div class="col-lg-6" id="trackingInfoSection" style="display: none;">
+        <div class="tracking-info">
+          <h3>Tracking Details</h3>
+          <ul class="list-group" id="trackingInfoList">
+            <!-- Tracking details will be added dynamically using JavaScript -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Contact Section -->
+  <section class="contact"  id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-info">
+            <h3>Visit Us</h3>
+            <p>123 Main Street, City</p>
+            <h3>Call Us</h3>
+            <p>+1 234 567 890</p>
+            <h3>Email Us</h3>
+            <p>info@Expresscouriers.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Express Couriers. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
